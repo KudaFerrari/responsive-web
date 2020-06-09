@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/font.css">
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/Operators.js"></script>
 </head>
 <body>
     <!-- content-start -->
@@ -15,18 +16,22 @@
             <h2>OPERATORS</h2>
             <p>Get to know your Operators! Each operator has different gadgets and skills which can be game-winning if utilized with a solid plan and teamwork.</p>
         </div>
+        <div class="controls">
+            <button id="def_btn" onclick="toggleDefender()">Defender</button>
+            <button id="atk_btn" onclick="toggleAttacker()">Attacker</button>
+        </div>
         <div class="item-container">
-            <div class="item col-1">
+            <div class="item col-1" id="atk_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Iana.jpg" alt="Iana">
                     <div class="item-text">Iana</div>
                 </div>
-            </div><div class="item col-1">
+            </div><div class="item col-1" id="def_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Oryx.jpg" alt="Oryx">
                     <div class="item-text">Oryx</div>
                 </div>
-            </div><div class="item col-1">
+            </div><div class="item col-1" id="atk_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Kali.jpg" alt="Kali">
                     <div class="item-text">Kali</div>
@@ -36,7 +41,7 @@
                     <img src="../assets/Operators/Wamai.jpg" alt="Wamai">
                     <div class="item-text">Wamai</div>
                 </div>
-            </div><div class="item col-1">
+            </div><div class="item col-1" id="atk_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Amaru.jpg" alt="Amaru">
                     <div class="item-text">Amaru</div>
@@ -46,7 +51,7 @@
                     <img src="../assets/Operators/Goyo.jpg" alt="Goyo">
                     <div class="item-text">Goyo</div>
                 </div>
-            </div><div class="item col-1">
+            </div><div class="item col-1" id="atk_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Nokk.jpg" alt="Nokk">
                     <div class="item-text">Nokk</div>
@@ -61,7 +66,7 @@
                     <img src="../assets/Operators/Mozzie.jpg" alt="Mozzie">
                     <div class="item-text">Mozzie</div>
                 </div>
-            </div><div class="item col-1">
+            </div><div class="item col-1" id="atk_item">
                 <div class="content-container">
                     <img src="../assets/Operators/Gridlock.jpg" alt="Gridlock">
                     <div class="item-text">Gridlock</div>

@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .content {
     background-color: #000;
 }
@@ -17,26 +18,52 @@
     font-family: nono-light;
     color: #FFF;
 }
+.content .controls{
+    padding-top:5px;
+    padding-bottom: 20px;
+}
+.content button{
+    font-family: nono-light;
+    font-size: 16px;
+    margin-left: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 0px;
+    background-color: #23242d;
+    color: white;
+    border: 2px solid #3f4353;
+    transition: 0.3s;
+}
+.content button:hover{
+    background-color: white;
+    color: black;
+}
+
+
 .title {
     padding-left: 15px;
     padding-bottom: 15px;
 }
+
 .item-container{
     width: 100%;
     text-align: center;
 }
+
 .item-text{
     margin-top: -4px;
     width: 100%;
     height: 60px;
-    background-color: white;
+    background-color: #3f4353;
     padding-top: 15px;
 
-    color:black;
+    color: white;
     font-family: R6S-Light;
     font-size: 44px;
     line-height: 0.6;
     font-weight: 400;
+
+    transition: 0.3s;
 }
 .item{
     margin-top: 10px;
@@ -49,8 +76,17 @@
 .content-container{
     width: 90%;
     margin-left: 5%;
-    border: 2px solid white;
+    border: 2px solid #3f4353;
     background-color: #23242d;
+    transition: 0.3s;
+}
+.content-container:hover{
+    border: 2px solid white;
+    background-color: #1c1c22;
+}
+.content-container:hover .item-text{
+    background-color: white;
+    color: black;
 }
 @media only screen and (min-width: 800px){
     /*for Tablet?*/
