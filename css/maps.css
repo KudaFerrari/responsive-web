@@ -12,7 +12,7 @@
     font-family: R6S-Light;
     color: #FFF;
 }
-.content p {
+.content p, .footer {
     
     font-weight: 500;
     font-family: nono-light;
@@ -25,6 +25,7 @@
 .item-container{
     background-color: #222;
     text-align: center;
+    padding-bottom: 18px;
 }
 .item{
     margin-top: 20px;
@@ -48,8 +49,11 @@
     line-height: 0.6;
     font-weight: 400;
 }
-.overlay{
-    position: absolute;
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
 }
 @media only screen and (min-width: 800px){
     /*for desktop*/
