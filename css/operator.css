@@ -3,23 +3,27 @@
     margin: 0px;
     padding: 0px;
 }
-
-.content {
-    background-color: #000;
+body{
+    font-weight: 500;
+    font-family: nono-light;
+    color: #FFF;
+}
+.content{
+    background-color: black;
 }
 .content h2 {
     font-size: 55px;
     font-weight: 500;
     font-family: R6S-Light;
-    color: #FFF;
+    color: black;
 }
 .content p {
     font-weight: 500;
     font-family: nono-light;
-    color: #FFF;
+    color: black;
 }
 .content .controls{
-    padding-top:5px;
+    padding-top:20px;
     padding-bottom: 20px;
 }
 .content button{
@@ -38,11 +42,10 @@
     background-color: white;
     color: black;
 }
-
-
 .title {
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color:white;
 }
 
 .item-container{

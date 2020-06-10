@@ -1,0 +1,37 @@
+/*css-header*/
+.navbar{
+    margin:0;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar li{
+float: left;
+}
+.navbar li a{
+color: white;
+display: block;
+text-decoration: none;
+padding: 20px;
+transition: 0.3s;
+}
+.navbar li a:hover{
+    background-color: white;
+    color:black;
+}
+#active{
+    background-color: white;
+    color:black;
+}
+
+/*css-footer*/
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}

@@ -3,22 +3,20 @@
     margin: 0px;
     padding: 0px;
 }
-.content {
-    background-color: #000;
-}
 .content h2 {
     font-size: 55px;
     font-weight: 500;
     font-family: R6S-Light;
-    color: #FFF;
+    color: black;
 }
-.content p, .footer {
-    
+body{
     font-weight: 500;
     font-family: nono-light;
     color: #FFF;
 }
 .title {
+    background-color: white;
+    color: black;
     padding-left: 20px;
     padding-bottom: 20px;
 }
@@ -48,13 +46,10 @@
     font-size: 44px;
     line-height: 0.6;
     font-weight: 400;
+    color: black;
 }
-.footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0px;
-}
+
+
 @media only screen and (min-width: 800px){
     /*for desktop*/
     .col-1{width: 33.33%};
